@@ -93,25 +93,25 @@ export const info = {
       title: 'Ehazypay',
       live: 'https://ehazypay.com.ng', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://dave-dev.vercel.app/assets/img/ehazypay.png',
+      image: 'https://dave-dev.vercel.app/ehazypay.png',
     },
     {
       title: 'Little Lemon',
       live: 'https://little-lemon-portfolio.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/little-lemon-portfolio', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://dave-dev.vercel.app/assets/img/little-lemon.png',
+      image: 'https://dave-dev.vercel.app/little-lemon.png',
     },
     {
       title: 'Honeybiis',
       live: 'https://honeybiis.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/honeybiis', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://dave-dev.vercel.app/assets/img/honeybiis.png',
+      image: 'https://dave-dev.vercel.app/honeybiis.png',
     },
     {
       title: 'Glamour Threads',
       live: 'https://glamour-threads.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/glamour-threads', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: '../img/glamour-threads.png',
+      image: 'https://dave-dev.vercel.app/glamour-threads.png',
     }
   ],
 };
