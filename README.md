@@ -2,6 +2,8 @@
 
 # Portfolio using React.js and Chakra UI
 
+<h3>created by github.com/eldoraboo</h3>
+
 This portfolio is built using React.js and Chakra UI. It allows you to quickly create and customize your portfolio website using markdown files.
 
 |    ![experience](example/Experience.gif)    | ![projects](example/Projects.gif) |
