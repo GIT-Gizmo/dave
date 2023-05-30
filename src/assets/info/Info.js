@@ -61,8 +61,8 @@ export const info = {
   ],
   bio: "Hi there! I'm Boluwatife David, a highly motivated frontend developer with an ardor for creating delightful user experiences with code. Balancing a healthy lifestyle with coding, I find inspiration in exploring new technologies and enjoy coding. When i'm not coding you can find me playing games, taking a walk, watching animes/movies, dancing or reading books. With a strong eye for detail, I strive to bring creativity and functionality to every project. Let's wield our coding wands and conjure up digital experiences that'll make netizens shed tears of joy!",
   skills: {
-    techstack: ['html/css', 'javaScript bootstrap', 'reactjs', 'jQuery', 'sass'],
-    reinforcements: ['git', 'npm', 'redux', 'firebase', 'vercel', 'material ui', 'chakra ui', 'wordpress']
+    techstack: ['html/css', 'javaScript', 'reactjs', 'bootstrap', 'tailwind', 'figma', 'jQuery', 'sass'],
+    reinforcements: ['git', 'npm', 'css animations', 'redux', 'firebase', 'vercel', 'jest', 'material ui', 'chakra ui', 'wordpress']
   },
   hobbies: [
     {
@@ -74,12 +74,16 @@ export const info = {
       emoji: '🎮',
     },
     {
-      label: ' movies',
-      emoji: '🎞',
+      label: 'watching movies',
+      emoji: '🍿',
     },
     {
       label: 'reading',
       emoji: '📖',
+    },
+    {
+      label: 'solving problems',
+      emoji: '🛠️',
     },
     {
       label: 'taking a walk',
@@ -93,25 +97,25 @@ export const info = {
       title: 'Ehazypay',
       live: 'https://ehazypay.com.ng', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://dave-dev.vercel.app/assets/img/ehazypay.png',
+      image: 'https://i.gyazo.com/1bf1cbf1ea795ec74aa2e4e0ae5ca54a.png',
     },
     {
       title: 'Little Lemon',
       live: 'https://little-lemon-portfolio.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/little-lemon-portfolio', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://dave-dev.vercel.app/assets/img/little-lemon.png',
+      image: 'https://i.gyazo.com/b6af183e10a965acff34cecede83e6ba.png',
     },
     {
       title: 'Honeybiis',
       live: 'https://honeybiis.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/honeybiis', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://dave-dev.vercel.app/assets/img/honeybiis.png',
+      image: 'https://i.gyazo.com/eb89bc470f69865c74748440b963b039.png',
     },
     {
       title: 'Glamour Threads',
       live: 'https://glamour-threads.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/glamour-threads', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://dave-dev.vercel.app/assets/img/glamour-threads.png',
+      image: 'https://i.gyazo.com/d4beecb546f743ee1f6a6a021f25295b.png',
     }
   ],
 };
