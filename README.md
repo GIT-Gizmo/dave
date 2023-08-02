@@ -2,11 +2,11 @@
 
 ## a portfolio for developers
 
-![screenshot](https://dave-dev.vercel.app/website.jpg)
+![screenshot](https://dave-dev.vercel.app/website.png)
 
 [View Live Template](https://dave-dev.vercel.app/)
 
-Attention: This is based on paytonjewell's [react-portfolio-template](https://github.com/paytonjewell/ReactPortfolioTemplate)
+Attention: This is based on paytonjewell's [react-portfolio-template](https://github.com/paytonjewell/ReactPortfolioTemplate).
 [Andy](https://andy8647.com/) added particles background, OS dark mode detection and watch, Google Analytics.
 Elements redesigned by [Ingrid Fei](https://ingrid0126.com)
 
@@ -115,23 +115,23 @@ const firebaseConfig = {
 ```html
 <!-- Social Media Previews -->
     <!-- Primary Meta Tags -->
-    <title>Andy Luo, Full Stack Developer</title>
-    <meta name="title" content="Andy Luo, Full Stack Developer">
-    <meta name="description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
+    <title>Boluwatife David</title>
+    <meta name="title" content="Boluwatife David, Front-end Developer | UI/UX">
+    <meta name="description" content="Hello! I'm Boluwatife David, a motivated frontend developer who finds inspiration exploring new technologies and bringing creativity to every project. I'm always happy to contribute to impactful projects. Let's wield our coding wands and create remarkable digital experiences together.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://andy8647.com/">
-    <meta property="og:title" content="Andy Luo, Full Stack Developer">
-    <meta property="og:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
-    <meta property="og:image" content="https://andy8647.com/website.jpg">
+    <meta property="og:url" content="https://dave-dev.vercel.app/">
+    <meta property="og:title" content="Boluwatife David, UI/UX Designer">
+    <meta property="og:description" content="Hello! I'm Boluwatife David, a motivated frontend developer who finds inspiration exploring new technologies and bringing creativity to every project. I'm always happy to contribute to impactful projects. Let's wield our coding wands and create remarkable digital experiences together.">
+    <meta property="og:image" content="https://dave-dev.vercel.app/website.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://andy8647.com/">
-    <meta property="twitter:title" content="Andy Luo, Full Stack Developer">
-    <meta property="twitter:description" content="Full Stack Developer and Freelance Photographer based in Toronto, passionate about building web applications, learning new technologies, traveling and exploring new places.">
-    <meta property="twitter:image" content="https://andy8647.com/website.jpg">
+    <meta property="twitter:url" content="https://dave-dev.vercel.app/">
+    <meta property="twitter:title" content="Boluwatife David, Front-end Developer | UI/UX">
+    <meta property="twitter:description" content="Hello! I'm Boluwatife David, a motivated frontend developer who finds inspiration exploring new technologies and bringing creativity to every project. I'm always happy to contribute to impactful projects. Let's wield our coding wands and create remarkable digital experiences together.">
+    <meta property="twitter:image" content="https://dave-dev.vercel.app/website.png">
 ```
 
 
