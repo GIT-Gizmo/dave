@@ -61,7 +61,7 @@ export const info = {
   ],
   bio: "Hi there! I'm Boluwatife David, a highly motivated frontend developer with an ardor for creating delightful user experiences with code. Balancing a healthy lifestyle with coding, I find inspiration in exploring new technologies and enjoy coding. When i'm not coding you can find me playing games, taking long strolls, watching movies, dancing or reading books. With a strong eye for detail, I strive to bring creativity and functionality to every project. I am seeking a frontend developer position to leverage my expertise and contribute to impactful projects. Let's wield our coding wands and conjure up digital experiences that'll make netizens shed tears of joy!",
   skills: {
-    techstack: ['html/css', 'javaScript', 'reactjs', 'redux', 'jQuery', 'vite', 'firebase', 'figma', 'tailwind', 'bootstrap', 'sass', 'npm', 'git', 'jest'],
+    techstack: ['html/css', 'javaScript', 'reactjs', 'redux', 'typescript', 'jQuery', 'vite', 'ui/ux', 'firebase', 'figma', 'tailwind', 'bootstrap', 'sass', 'npm', 'git', 'jest'],
     reinforcements: ['vercel', 'material ui', 'chakra ui', 'wordpress']
   },
   hobbies: [
