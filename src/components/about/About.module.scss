@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import '../../variables.modules';
 
 .pink {
@@ -19,3 +20,26 @@
     line-height: 1.75;
   }
 }
+=======
+@import '../../variables.modules';
+
+.pink {
+  color: $pink;
+}
+
+.green {
+  color: $green;
+}
+
+.skills {
+  columns: 1;
+  @media only screen and (min-width: 940px) {
+    columns: 2;
+  }
+
+  li {
+    margin: 0;
+    line-height: 1.75;
+  }
+}
+>>>>>>> 3f642e61df24c30281ad2c416b0c24c3cfe06e12
