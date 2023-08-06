@@ -51,11 +51,11 @@ export default function About() {
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{' '}
-          cd skills
+          cd techstack
         </p>
         <p>
           <span style={{ color: info.baseColor }}>
-            skills <span className={Style.green}>(main)</span> $
+            techstack <span className={Style.green}>(main)</span> $
           </span>{' '}
           ls
         </p>

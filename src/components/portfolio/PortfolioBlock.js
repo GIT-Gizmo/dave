@@ -1,11 +1,11 @@
 import React from 'react';
 import IconLink from './IconLink';
-import { Box } from '@mui/material';
+import { Box, Stack } from '@mui/material';
 
 function PortfolioBlock(props) {
-  const { image, live, source, title } = props;
+  const { image, live, source, title, detail, stack } = props;
   return (
-    <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
+    <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'} marginTop={'3rem'}>
         <Box
             component={'img'}
             src={image}
@@ -24,6 +24,8 @@ function PortfolioBlock(props) {
             }}
         />
       <h1 style={{ fontSize: '2rem' }}>{title}</h1>
+      <h3 style={{ width: '30vw', marginTop: '1rem', textAlign: 'center', fontSize: '14px' }}>{detail}</h3>
+      <h4 style={{ fontSize: '20px', fontWeight: '500', marginTop: '1rem' }}> <IconLink icon={'fa fa-cogs'} /> {stack}</h4>
       <Box
         className={'portfolio'}
         display={'flex'}
@@ -33,6 +35,12 @@ function PortfolioBlock(props) {
         fontSize={'1.5rem'}
         py={'2rem'}
       >
+        {/* {Stack && (
+          <Box p={1} >
+            <IconLink title={'Live Demo'} icon={'fa fa-safari'} />
+          </Box>
+        )} */}
+
         {live && (
           <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
             <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'} />

@@ -35,7 +35,7 @@ export const info = {
   socials: [
     {
       link: 'https://dave-dev.vercel.app/resume.pdf/', // this should be https://yourname.com/resume.pdf once you've deployed
-      icon: 'fa fa-user-circle',
+      icon: 'fa fa-file-pdf-o',
       label: 'resume',
     },
     {
@@ -59,10 +59,14 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: "Hi there! I'm Boluwatife David, a highly motivated frontend developer with an ardor for creating delightful user experiences with code. Balancing a healthy lifestyle with coding, I find inspiration in exploring new technologies and enjoy coding. When i'm not coding you can find me playing games, taking long strolls, watching movies, dancing or reading books. With a strong eye for detail, I strive to bring creativity and functionality to every project. I am seeking a frontend developer position to leverage my expertise and contribute to impactful projects. Let's wield our coding wands and conjure up digital experiences that'll make netizens shed tears of joy!",
-  skills: {
-    techstack: ['html/css', 'javaScript', 'reactjs', 'redux', 'typescript', 'jQuery', 'vite', 'ui/ux', 'firebase', 'figma', 'tailwind', 'bootstrap', 'sass', 'npm', 'git', 'jest'],
-    reinforcements: ['vercel', 'material ui', 'chakra ui', 'wordpress']
+  bio: "Hello there! I'm Boluwatife David, a dedicated frontend developer with a strong desire to craft delightful user experiences. I'm fueled by my passion for new technologies, infusing creativity and functionality into every project. I'm on the lookout for a frontend developer role to contribute my expertise to meaningful projects. Let's collaborate and create digital experiences that spreads happiness!",
+  techstack: {
+    languages: ['html/css', 'javaScript', 'typescript'],
+    frameworks: ['reactjs', 'material ui', 'tailwind css', 'bootstrap', 'jQuery', 'chakra ui'],
+    database: ['firebase'],
+    cloudServices: ['vercel', 'netlify', 'google analytics'],
+    tools: ['redux', 'git', 'npm', 'vite', 'jest', 'figma', 'sass'],
+    cms: ['wordpress', 'wix']
   },
   hobbies: [
     {
@@ -99,24 +103,32 @@ export const info = {
     //   for the null ones, the button will not show up
     {
       title: 'Ehazypay',
+      detail: 'Ehazypay is a premier landing page platform that gives you easy access to trade your cryptocurrencies and gift cards.',
+      stack: 'Html, Css, Bootstrap, jQuery',
       live: 'https://ehazypay.com.ng', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/1bf1cbf1ea795ec74aa2e4e0ae5ca54a.png',
     },
     {
       title: 'Little Lemon',
+      detail: 'A user-friendly restaurant web app for making table reservations and ordering foods online.',
+      stack: 'React.js, Toastify, Formik',
       live: 'https://little-lemon-portfolio.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/little-lemon-portfolio', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/b6af183e10a965acff34cecede83e6ba.png',
     },
     {
       title: 'Honeybiis',
+      detail: 'An aesthetically pleasing landing page template for ordering food from an online restaurant.',
+      stack: 'Html, Sass',
       live: 'https://honeybiis.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/honeybiis', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/eb89bc470f69865c74748440b963b039.png',
     },
     {
       title: 'Glamour Threads',
+      detail: 'An attractive lnading page template for an online clothing store.',
+      stack: 'Html, Sass',
       live: 'https://glamour-threads.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/glamour-threads', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/d4beecb546f743ee1f6a6a021f25295b.png',

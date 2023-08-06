@@ -14,6 +14,8 @@ export default function Portfolio() {
               live={project.live}
               source={project.source}
               title={project.title}
+              detail={project.detail}
+              stack={project.stack}
             />
           </Grid>
         ))}
