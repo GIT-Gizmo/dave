@@ -34,7 +34,7 @@ export default function About() {
     return (
       <div key={keyName}>
         <p style={{ color: info.baseColor }}> {keyName}</p>
-        <ul className={Style.skills}>
+        <ul className={Style.techstack}>
           {values.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
@@ -59,8 +59,8 @@ export default function About() {
           </span>{' '}
           ls
         </p>
-        {Object.keys(info.skills).map((key) => {
-          return skillsSection({ [key]: info.skills[key] });
+        {Object.keys(info.techstack).map((key) => {
+          return skillsSection({ [key]: info.techstack[key] });
         })}
       </>
     );
