@@ -61,12 +61,13 @@ export const info = {
   ],
   bio: "Hello there! I'm Boluwatife David, a dedicated frontend developer with a strong desire to craft delightful user experiences. I'm fueled by my passion for new technologies, infusing creativity and functionality into every project. I'm on the lookout for a frontend developer role to contribute my expertise to meaningful projects. Let's collaborate and create digital experiences that spreads happiness!",
   techstack: {
-    languages: ['html/css', 'javaScript', 'typescript'],
-    frameworks: ['reactjs', 'material ui', 'tailwind css', 'bootstrap', 'jQuery', 'chakra ui'],
+    languages: ['html/css', 'javaScript', 'typescript', 'php'],
+    frameworks: ['reactjs', 'nextjs', 'material ui', 'tailwind css', 'bootstrap', 'jQuery', 'chakra ui', 'aos'],
     database: ['firebase'],
     cloudServices: ['vercel', 'netlify', 'google analytics'],
-    tools: ['redux', 'git', 'npm', 'vite', 'jest', 'figma', 'sass'],
-    cms: ['wordpress', 'wix']
+    tools: ['redux', 'git', 'npm', 'vite', 'jest', 'figma', 'sass', 'cypress'],
+    cms: ['wordpress', 'wix'],
+    interests: ['nodejs', 'expressjs', 'nestjs', 'mongodb', 'graphql', 'rest api', 'python', 'react native']
   },
   hobbies: [
     {

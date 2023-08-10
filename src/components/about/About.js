@@ -43,6 +43,26 @@ export default function About() {
     );
   };
 
+  function experience() {
+    return (
+      <>
+        <p><span style={{color: info.baseColor}}>Work Experience $</span></p>
+            <p>
+                <p style={{color: info.baseColor}}>Upwork</p>
+                <p>Freelance Frontend Developer - December 2022 to Present</p>
+            </p>
+            <p>
+                <p style={{color: info.baseColor}}>RCCG Bible College</p>
+                <p>Junior Frontend Developer - November 2021 to April 2022</p>
+            </p>
+            <p>
+                <p style={{color: info.baseColor}}>RCCG National Secretariat.</p>
+                <p>Demographer Intern – May 2021 to October 2021</p>
+            </p>
+      </>
+    );
+  }
+
   function skillsText() {
     return (
       <>
@@ -99,6 +119,7 @@ export default function About() {
   return (
     <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
       <Terminal text={aboutMeText()} />
+      <Terminal text={experience()} />
       <Terminal text={skillsText()} />
       <Terminal text={miscText()} />
     </Box>
