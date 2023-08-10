@@ -42,6 +42,8 @@ export default function Home({ darkMode }) {
           padding: '1rem 2rem',
           transition: 'all 0.3s ease',
         }}
+        width={{ xs: '35vh' }}
+        height={{ xs: '35vh' }}
       >
         <h1>
           Hi, I'm{' '}
