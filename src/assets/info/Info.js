@@ -124,7 +124,7 @@ export const info = {
       stack: 'Html, Sass',
       live: 'https://honeybiis.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/honeybiis', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.gyazo.com/eb89bc470f69865c74748440b963b039.png',
+      image: 'https://i.gyazo.com/13f8b3e31e88d14f81391f70e7bd57a7.jpg',
     },
     {
       title: 'Glamour Threads',

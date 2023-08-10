@@ -12,7 +12,7 @@ export default function Home({ darkMode }) {
     <Box
       component={'main'}
       display={'flex'}
-      flexDirection={{ xs: 'column', md: 'row' }}
+      flexDirection={{ xs: 'column', md: 'column', lg:'row' }}
       alignItems={'center'}
       justifyContent={'center'}
       minHeight={'calc(100vh - 175px)'}
