@@ -12,7 +12,7 @@ export default function Home({ darkMode }) {
     <Box
       component={'main'}
       display={'flex'}
-      flexDirection={{ xs: 'column', md: 'column', lg:'row' }}
+      flexDirection={{ xs: 'column', md: 'row' }}
       alignItems={'center'}
       justifyContent={'center'}
       minHeight={'calc(100vh - 175px)'}
@@ -23,8 +23,8 @@ export default function Home({ darkMode }) {
         style={{ background: info.gradient, objectFit: 'cover' }}
         component={'img'}
         src={me}
-        width={{ xs: '10vh', md: '40vh' }}
-        height={{ xs: '10vh', md: '40vh' }}
+        width={{ xs: '35vh', md: '40vh' }}
+        height={{ xs: '35vh', md: '40vh' }}
         borderRadius={'50%'}
         p={'0.75rem'}
         mb={{ xs: '1rem', sm: 0 }}
@@ -42,8 +42,6 @@ export default function Home({ darkMode }) {
           padding: '1rem 2rem',
           transition: 'all 0.3s ease',
         }}
-        width={{ xs: '35vh' }}
-        height={{ xs: '35vh' }}
       >
         <h1>
           Hi, I'm{' '}
@@ -56,7 +54,7 @@ export default function Home({ darkMode }) {
           >
             {info.firstName}
           </span>
-          <span className={Style.hand}>👋</span>
+          <span className={Style.hand}>🤚</span>
         </h1>
         <h2>I'm {info.position}.</h2>
         <Box component={'ul'} p={'0.8rem'}>

@@ -5,31 +5,31 @@ export const info = {
   firstName: ' Boluwatife',
   lastName: 'David',
   initials: 'BD', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'a frontend developer',
+  position: 'a Frontend developer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
-    {
-      emoji: '👦 ',
-      text: 'you can call me dave',
-    },
+    // {
+    //   emoji: '👦 ',
+    //   text: 'you can call me dave',
+    // },
     {
       emoji: '🇳🇬 ',
-      text: ' based in Lagos, Nigeria',
+      text: ' Based in Lagos, Nigeria',
     },
     {
       emoji: '👨‍💻',
-      text: 'front-end Developer | UI/UX',
+      text: 'Front-End Developer | UI/UX',
     },
     {
       emoji: '🤝',
-      text: "let's join forces and create web magic!",
+      text: "Let's join forces and create web magic!",
     },
     {
       emoji: '📨',
-      text: <a href="mailto:davidbolu12@gmail.com?subject=🤘 Hi Dave, I will like to hire you">davidbolu12@gmail.com</a>,
+      text: <a href="mailto:davidbolu12@gmail.com?subject=🤘 Hi Dave, I will like to hire you">Davidbolu12@gmail.com</a>,
     },
   ],
   socials: [
@@ -59,7 +59,7 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: "Hello there! I'm Boluwatife David, a dedicated frontend developer with a strong desire to craft delightful user experiences. I'm fueled by my passion for new technologies, infusing creativity and functionality into every project. I'm on the lookout for a frontend developer role to contribute my expertise to meaningful projects. Let's collaborate and create digital experiences that spreads happiness!",
+  bio: "Hello there! I'm Boluwatife David, a dedicated frontend developer with a strong desire to create lovely user experiences. I'm fueled by my passion for utilizing new technologies, infusing creativity and functionality into every project. I'm on the lookout for a frontend developer role to contribute my expertise to meaningful projects. Let's collaborate and create digital experiences that spreads happiness!",
   techstack: {
     languages: ['html/css', 'javaScript', 'typescript', 'php'],
     frameworks: ['reactjs', 'nextjs', 'material ui', 'tailwind css', 'bootstrap', 'jQuery', 'chakra ui', 'aos'],
