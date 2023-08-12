@@ -1,5 +1,6 @@
 import React from 'react';
 import IconLink from './IconLink';
+import Style from './PortfolioBlock.module.scss';
 import { Box, Stack } from '@mui/material';
 
 function PortfolioBlock(props) {
@@ -10,7 +11,7 @@ function PortfolioBlock(props) {
             component={'img'}
             src={image}
             alt={'mockup'}
-            width={'30vw'}
+            width={{ xs: '80vw', sm: '60vw',  md: '40vw'}}
             style={{
                 objectFit: 'cover',
                 borderRadius: '25px',
@@ -24,7 +25,8 @@ function PortfolioBlock(props) {
             }}
         />
       <h1 style={{ fontSize: '2rem' }}>{title}</h1>
-      <h3 style={{ width: '30vw', marginTop: '1rem', textAlign: 'center', fontSize: '14px' }}>{detail}</h3>
+      <h3 className={Style.detail} style={{ marginTop: '1rem', textAlign: 'center', fontSize: '14px'
+    }}>{detail}</h3>
       <h4 style={{ fontSize: '20px', fontWeight: '500', marginTop: '1rem' }}> <IconLink icon={'fa fa-cogs'} /> {stack}</h4>
       <Box
         className={'portfolio'}
