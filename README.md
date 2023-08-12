@@ -117,27 +117,27 @@ const firebaseConfig = {
     <!-- Primary Meta Tags -->
     <title>Boluwatife David</title>
     <meta name="title" content="Boluwatife David, Front-end Developer | UI/UX">
-    <meta name="description" content="Hello! I'm Boluwatife David, a motivated frontend developer who finds inspiration exploring new technologies and bringing creativity to every project. I'm always happy to contribute to impactful projects. Let's wield our coding wands and create remarkable digital experiences together.">
+    <meta name="description" content="Hi there! I'm Boluwatife David, a dedicated frontend developer. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm seeking a frontend developer role to contribute my expertise to impactful projects. Let's collaborate and create delightful digital experiences!">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dave-dev.vercel.app/">
     <meta property="og:title" content="Boluwatife David, UI/UX Designer">
-    <meta property="og:description" content="Hello! I'm Boluwatife David, a motivated frontend developer who finds inspiration exploring new technologies and bringing creativity to every project. I'm always happy to contribute to impactful projects. Let's wield our coding wands and create remarkable digital experiences together.">
+    <meta property="og:description" content="Hi there! I'm Boluwatife David, a dedicated frontend developer. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm seeking a frontend developer role to contribute my expertise to impactful projects. Let's collaborate and create delightful digital experiences!">
     <meta property="og:image" content="https://dave-dev.vercel.app/website.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://dave-dev.vercel.app/">
     <meta property="twitter:title" content="Boluwatife David, Front-end Developer | UI/UX">
-    <meta property="twitter:description" content="Hello! I'm Boluwatife David, a motivated frontend developer who finds inspiration exploring new technologies and bringing creativity to every project. I'm always happy to contribute to impactful projects. Let's wield our coding wands and create remarkable digital experiences together.">
+    <meta property="twitter:description" content="Hi there! I'm Boluwatife David, a dedicated frontend developer. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm seeking a frontend developer role to contribute my expertise to impactful projects. Let's collaborate and create delightful digital experiences!">
     <meta property="twitter:image" content="https://dave-dev.vercel.app/website.png">
 ```
 
 
 ### 6. Deployment
 
-I recommend using [Netlify](https://www.netlify.com/) for deployment. It's free and easy to use. You can follow the instructions [here](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) to deploy your site.
+I recommend using [Netlify](https://www.vercel.app) for deployment. It's free and easy to use. You can follow the instructions [here](https://vercel.com/docs/concepts/deployments/overview#git) to deploy your site.
 
 P.S. If you are using Netlify, to resolved the bug from `react-router-dom`, you need to add a `_redirects` file in the `public` folder and add the following code:
 
@@ -151,7 +151,7 @@ And you're done!
 
 If you have any questions or issues with the setup process, feel free to contact me by any of the means below:
 
-[Twitter](https://twitter.com/Andy8647L) | andy8647lgc@gmail.com
+[Twitter](https://twitter.com/davecodes2) | davidbolu12@gmail.com
 
 Finally, thanks to the original author [paytonjewell](https://github.com/paytonjewell) for the well built template.
 
