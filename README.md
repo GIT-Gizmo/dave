@@ -137,7 +137,7 @@ const firebaseConfig = {
 
 ### 6. Deployment
 
-I recommend using [Netlify](https://www.vercel.app) for deployment. It's free and easy to use. You can follow the instructions [here](https://vercel.com/docs/concepts/deployments/overview#git) to deploy your site.
+I recommend using [Vercel](https://www.vercel.app) for deployment. It's free and easy to use. You can follow the instructions [here](https://vercel.com/docs/concepts/deployments/overview#git) to deploy your site.
 
 P.S. If you are using Netlify, to resolved the bug from `react-router-dom`, you need to add a `_redirects` file in the `public` folder and add the following code:
 

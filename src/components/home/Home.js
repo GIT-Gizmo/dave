@@ -9,6 +9,10 @@ import { info } from '../../assets/info/Info';
 
 export default function Home({ darkMode }) {
   return (
+    <>
+    <head>
+        <link rel="preload" as="image" href={me} />
+      </head>
     <Box
       component={'main'}
       display={'flex'}
@@ -74,5 +78,6 @@ export default function Home({ darkMode }) {
         </Box>
       </Box>
     </Box>
+    </>
   );
 }

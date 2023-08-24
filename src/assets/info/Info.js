@@ -104,11 +104,19 @@ export const info = {
     //   for the null ones, the button will not show up
     {
       title: 'Ehazypay',
-      detail: 'Ehazypay is a premier landing page platform that gives you easy access to trade your cryptocurrencies and gift cards.',
+      detail: 'Ehazypay is a premier platform that gives you easy access to trade your cryptocurrencies and gift cards.',
       stack: 'Html, Css, Bootstrap, jQuery',
       live: 'https://ehazypay.com.ng', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/1bf1cbf1ea795ec74aa2e4e0ae5ca54a.png',
+    },
+    {
+      title: 'WingsTrip',
+      detail: 'Embark on your dream vacation with Wings Trip! Easily book your ideal flights and set off on unforgettable journeys to your favorite destinations.',
+      stack: 'React, Sass, Aos',
+      live: 'https://wingstrip.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/GIT-Gizmo/wingstrip', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://i.gyazo.com/46b46ffdc141dc81e2d1cf115b947c0a.jpg',
     },
     {
       title: 'Little Lemon',
