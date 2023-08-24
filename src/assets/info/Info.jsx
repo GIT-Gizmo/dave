@@ -115,7 +115,7 @@ export const info = {
       detail: 'Embark on your dream vacation with Wings Trip! Easily book your ideal flights and set off on unforgettable journeys to your favorite destinations.',
       stack: 'React, Sass, Aos',
       live: 'https://wingstrip.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/GIT-Gizmo/wingstrip', // this should be a link to the **repository** of the project, where the code is hosted.
+      source: 'https://github.com/GIT-Gizmo/Wings-Trip', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/46b46ffdc141dc81e2d1cf115b947c0a.jpg',
     },
     {
