@@ -34,7 +34,7 @@ export const info = {
   ],
   socials: [
     {
-      link: 'https://dave-dev.vercel.app/resume.pdf/', // this should be https://yourname.com/resume.pdf once you've deployed
+      link: 'https://dave-dev.vercel.app/cv.pdf', // this should be https://yourname.com/resume.pdf once you've deployed
       icon: 'fa fa-file-pdf-o',
       label: 'resume',
     },
