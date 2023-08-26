@@ -59,43 +59,43 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: "Hi there! I'm Boluwatife David, a dedicated frontend developer. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm seeking a frontend developer role to contribute my expertise to impactful projects. Let's collaborate and create delightful digital experiences!",
+  bio: "Hi there! I'm Boluwatife David, a dedicated frontend developer often praised for the ability to adapt well. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm currently available to get involved in new projects, let's collaborate and create delightful digital experiences!",
   techstack: {
-    languages: ['html/css', 'javaScript', 'typescript', 'php'],
-    frameworks: ['reactjs', 'nextjs', 'material ui', 'tailwind css', 'bootstrap', 'jQuery', 'chakra ui', 'aos'],
-    database: ['firebase'],
-    cloudServices: ['vercel', 'netlify', 'google analytics'],
-    tools: ['redux', 'git', 'npm', 'vite', 'jest', 'figma', 'sass', 'cypress'],
-    cms: ['wordpress', 'wix'],
-    interests: ['nodejs', 'expressjs', 'nestjs', 'mongodb', 'graphql', 'rest api', 'python', 'react native']
+    languages: ['Html/Css', 'JavaScript', 'Typescript', 'Php'],
+    frameworks: ['Reactjs', 'Nextjs', 'Material ui', 'Tailwind css', 'bootstrap', 'JQuery', 'Chakra ui', 'Aos'],
+    database: ['Firebase', 'Supabase', 'Mongodb'],
+    cloudServices: ['Vercel', 'Netlify', 'Google analytics'],
+    tools: ['Redux', 'Git', 'Npm', 'Vite', 'Jest', 'Figma', 'Sass', 'Cypress'],
+    cms: ['Wordpress', 'Wix'],
+    interests: ['Nodejs', 'Expressjs', 'Nestjs', 'Graphql', 'Rest api', 'Python', 'React native']
   },
   hobbies: [
     {
-      label: 'coding',
+      label: 'Coding',
       emoji: '🧑‍💻',
     },
     {
-      label: 'video games',
+      label: 'Video games',
       emoji: '🎮',
     },
     {
-      label: 'watching movies',
+      label: 'Watching movies',
       emoji: '🍿',
     },
     {
-      label: 'reading',
+      label: 'Reading',
       emoji: '📖',
     },
     {
-      label: 'solving problems',
+      label: 'Solving problems',
       emoji: '🛠️',
     },
     {
-      label: 'taking a walk',
+      label: 'Taking a walk',
       emoji: '🚶',
     },
     {
-      label: 'dancing',
+      label: 'Dancing',
       emoji: '🕺',
     },
   ],
