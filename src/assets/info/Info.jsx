@@ -62,7 +62,7 @@ export const info = {
   bio: "Hi there! I'm Boluwatife David, a dedicated frontend developer often praised for the ability to adapt well. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm currently available to get involved in new projects, let's collaborate and create delightful digital experiences!",
   techstack: {
     languages: ['Html/Css', 'JavaScript', 'Typescript', 'Php'],
-    frameworks: ['Reactjs', 'Nextjs', 'Material ui', 'Tailwind css', 'bootstrap', 'JQuery', 'Chakra ui', 'Aos'],
+    frameworks: ['Reactjs', 'Nextjs', 'Material ui', 'Tailwind css', 'Bootstrap', 'JQuery', 'Chakra ui', 'Aos'],
     database: ['Firebase', 'Supabase', 'Mongodb'],
     cloudServices: ['Vercel', 'Netlify', 'Google analytics'],
     tools: ['Redux', 'Git', 'Npm', 'Vite', 'Jest', 'Figma', 'Sass', 'Cypress'],
@@ -104,7 +104,7 @@ export const info = {
     //   for the null ones, the button will not show up
     {
       title: 'Ehazypay',
-      detail: 'Ehazypay is a premier platform that gives you easy access to trade your cryptocurrencies and gift cards.',
+      detail: 'Ehazypay is a single page platform that gives you easy access to trade your cryptocurrencies directly with trusted vendors.',
       stack: 'Html, Css, Bootstrap, jQuery',
       live: 'https://ehazypay.com.ng', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
@@ -112,7 +112,7 @@ export const info = {
     },
     {
       title: 'WingsTrip',
-      detail: 'Embark on your dream vacation with Wings Trip! Easily book your ideal flights and set off on unforgettable journeys to your favorite destinations.',
+      detail: 'A beautiful react template. Embark on your dream vacation with Wings Trip! Easily book your ideal flights and set off on unforgettable journeys to your favorite destinations.',
       stack: 'React, Sass, Aos',
       live: 'https://wingstrip.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/Wings-Trip', // this should be a link to the **repository** of the project, where the code is hosted.
