@@ -59,7 +59,7 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: "Hi there! I'm Boluwatife David, a dedicated frontend developer often praised for the ability to adapt well. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm currently available to get involved in new projects, let's collaborate and create delightful digital experiences!",
+  bio: "Hello! I'm Boluwatife David, a dynamic Frontend developer transitioning to Full Stack soon. I enjoy learning new technologies and trying out new Frontend tools. I recently started contributing to open source projects and it's a practically my new hobby. I'm available to collaborate on impactful projects",
   techstack: {
     languages: ['Html/Css', 'JavaScript', 'Typescript', 'Php'],
     frameworks: ['Reactjs', 'Nextjs', 'Material ui', 'Tailwind css', 'Bootstrap', 'JQuery', 'Chakra ui', 'Aos'],
