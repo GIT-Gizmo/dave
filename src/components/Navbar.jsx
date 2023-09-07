@@ -13,7 +13,7 @@ const links = [
   },
   {
     name: 'About Me',
-    to: '/about',
+    to: './about',
     active: 'about',
   },
   {
@@ -24,7 +24,7 @@ const links = [
   },
   {
     name: 'Portfolio',
-    to: '/portfolio',
+    to: './portfolio',
     active: 'portfolio',
   },
 ];

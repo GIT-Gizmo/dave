@@ -34,7 +34,7 @@ export default function About() {
     return (
       <div key={keyName}>
         <p style={{ color: info.baseColor }}> {keyName}</p>
-        <ul className={Style.techstack}>
+        <ul className={Style.skills}>
           {values.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
@@ -48,12 +48,16 @@ export default function About() {
       <>
         <p><span style={{color: info.baseColor}}>Work Experience $</span></p>
             <p>
+                <p style={{color: info.baseColor}}>Swap Space</p>
+                <p>Frontend Developer Internship - September 2023 to Present</p>
+            </p>
+            <p>
                 <p style={{color: info.baseColor}}>Upwork</p>
                 <p>Freelance Frontend Developer - December 2022 to Present</p>
             </p>
             <p>
                 <p style={{color: info.baseColor}}>RCCG Bible College</p>
-                <p>Junior Frontend Developer - November 2021 to April 2022</p>
+                <p>Intern Frontend Developer - November 2021 to April 2022</p>
             </p>
             <p>
                 <p style={{color: info.baseColor}}>RCCG National Secretariat.</p>
@@ -71,16 +75,16 @@ export default function About() {
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{' '}
-          cd techstack
+          cd skills
         </p>
         <p>
           <span style={{ color: info.baseColor }}>
-            techstack <span className={Style.green}>(main)</span> $
+            skills <span className={Style.green}>(main)</span> $
           </span>{' '}
           ls
         </p>
-        {Object.keys(info.techstack).map((key) => {
-          return skillsSection({ [key]: info.techstack[key] });
+        {Object.keys(info.skills).map((key) => {
+          return skillsSection({ [key]: info.skills[key] });
         })}
       </>
     );

@@ -60,12 +60,13 @@ export const info = {
     },
   ],
   bio: "Hello! I'm Boluwatife David, a dynamic Frontend developer transitioning to Full Stack soon. I enjoy learning new technologies and trying out new Frontend tools. I recently started contributing to open source projects and it's a practically my new hobby. I'm available to collaborate on impactful projects",
-  techstack: {
+  skills: {
+    mainStack: ['Reactjs', 'Nextjs', 'Tailwind CSS', 'Vite', 'Git', 'Vercel'],
     languages: ['Html/Css', 'JavaScript', 'Typescript', 'Php'],
-    frameworks: ['Reactjs', 'Nextjs', 'Material ui', 'Tailwind css', 'Bootstrap', 'JQuery', 'Chakra ui', 'Aos'],
+    libraries: ['Material ui', 'Bootstrap', 'JQuery', 'Chakra ui', 'Aos'],
     database: ['Firebase', 'Supabase', 'Mongodb'],
-    cloudServices: ['Vercel', 'Netlify', 'Google analytics'],
-    tools: ['Redux', 'Git', 'Npm', 'Vite', 'Jest', 'Figma', 'Sass', 'Cypress'],
+    cloudServices: ['Netlify', 'Google analytics'],
+    tools: ['Redux', 'Npm', 'Jest', 'Figma', 'Sass', 'Cypress'],
     cms: ['Wordpress', 'Wix'],
     interests: ['Nodejs', 'Expressjs', 'Nestjs', 'Graphql', 'Rest api', 'Python', 'React native']
   },
@@ -87,7 +88,7 @@ export const info = {
       emoji: '📖',
     },
     {
-      label: 'Solving problems',
+      label: 'Solving coding challenge',
       emoji: '🛠️',
     },
     {
