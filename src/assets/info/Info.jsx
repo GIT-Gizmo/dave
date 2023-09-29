@@ -59,7 +59,7 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: "Hello! I'm Boluwatife David, a dynamic Frontend developer transitioning to Full Stack soon. I enjoy learning new technologies and trying out new Frontend tools. I recently started contributing to open source projects and it's a practically my new hobby. I'm available to collaborate on impactful projects",
+  bio: "Hello! I'm Boluwatife David, a dynamic Frontend developer transitioning to Full Stack soon. I enjoy learning new technologies and trying out new Frontend tools. I recently started contributing to open source projects and it's practically my new hobby. I'm available to collaborate on impactful projects",
   skills: {
     mainStack: ['Reactjs', 'Nextjs', 'Tailwind CSS', 'Vite', 'Git', 'Vercel'],
     languages: ['Html/Css', 'JavaScript', 'Typescript', 'Php'],
