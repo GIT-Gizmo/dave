@@ -61,13 +61,11 @@ export const info = {
   ],
   bio: "Hello! I'm Boluwatife David, a dynamic Frontend developer transitioning to Full Stack soon. I enjoy learning new technologies and trying out new Frontend tools. I recently started contributing to open source projects and it's practically my new hobby. I'm available to collaborate on impactful projects",
   skills: {
-    mainStack: ['Reactjs', 'Nextjs', 'Tailwind CSS', 'Vite', 'Git', 'Vercel', 'Firebase'],
-    languages: ['Html/Css', 'JavaScript', 'Typescript', 'Php'],
-    libraries: ['Material ui', 'Bootstrap', 'JQuery', 'Chakra ui', 'Aos'],
-    database: [ /*'Supabase',*/ 'Mongodb'],
-    cloudServices: ['Netlify', 'Google Cloud'],
-  tools: ['Redux', 'Npm', 'Jest', 'Figma', 'Sass', /*'Cypress'*/],
-    cms: ['Wordpress', 'Wix'],
+    mainStack: ['Reactjs', 'Nextjs', 'Tailwind CSS', 'Vite', 'Git', 'Vercel', 'APIs', 'Firebase'],
+    otherSkills: ['Html/Css', 'JavaScript', 'Typescript','Mongodb', 'Material ui', 'Bootstrap', 'JQuery', 'Chakra ui', 'Netlify', 'Google Cloud', 'Redux', 'Npm', 'Jest', 'Figma', 'Sass', 'Php', 'Wordpress', 'Wix'],
+    /*database: [ 'Supabase', ],
+  tools: [ 'Cypress'], 
+    cms: [],*/
     interests: ['Nodejs', 'Expressjs', 'Nestjs', 'Graphql', 'Rest api', 'Python', 'React native']
   },
   hobbies: [
@@ -105,7 +103,7 @@ export const info = {
     //   for the null ones, the button will not show up
     {
       title: 'PromptSynth',
-      detail: 'Prompt Synth is a platform for sharing and exploring powerful AI prompts.Built with the robust full-stack capabilities of Next.js and beautifully styled with Tailwind CSS. ',
+      detail: 'Prompt Synth is a platform for sharing and exploring powerful AI prompts.Built with the robust full-stack capabilities of Next.js and MongoDB, beautifully styled with Tailwind CSS. ',
       stack: 'Html, Css, Bootstrap, jQuery',
       live: 'https://promptsynth.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/promptsynth', // this should be a link to the **repository** of the project, where the code is hosted.
