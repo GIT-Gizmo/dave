@@ -59,10 +59,6 @@ export default function About() {
                 <p style={{color: info.baseColor}}>RCCG Bible College</p>
                 <p>Intern Frontend Developer - November 2021 to April 2022</p>
             </p>
-            <p>
-                <p style={{color: info.baseColor}}>RCCG National Secretariat.</p>
-                <p>Demographer Intern – May 2021 to October 2021</p>
-            </p>
       </>
     );
   }

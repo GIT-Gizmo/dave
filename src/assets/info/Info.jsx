@@ -61,12 +61,12 @@ export const info = {
   ],
   bio: "Hello! I'm Boluwatife David, a dynamic Frontend developer transitioning to Full Stack soon. I enjoy learning new technologies and trying out new Frontend tools. I recently started contributing to open source projects and it's practically my new hobby. I'm available to collaborate on impactful projects",
   skills: {
-    mainStack: ['Reactjs', 'Nextjs', 'Tailwind CSS', 'Vite', 'Git', 'Vercel'],
+    mainStack: ['Reactjs', 'Nextjs', 'Tailwind CSS', 'Vite', 'Git', 'Vercel', 'Firebase'],
     languages: ['Html/Css', 'JavaScript', 'Typescript', 'Php'],
     libraries: ['Material ui', 'Bootstrap', 'JQuery', 'Chakra ui', 'Aos'],
-    database: ['Firebase', 'Supabase', 'Mongodb'],
-    cloudServices: ['Netlify', 'Google analytics'],
-    tools: ['Redux', 'Npm', 'Jest', 'Figma', 'Sass', 'Cypress'],
+    database: [ /*'Supabase',*/ 'Mongodb'],
+    cloudServices: ['Netlify', 'Google Cloud'],
+  tools: ['Redux', 'Npm', 'Jest', 'Figma', 'Sass', /*'Cypress'*/],
     cms: ['Wordpress', 'Wix'],
     interests: ['Nodejs', 'Expressjs', 'Nestjs', 'Graphql', 'Rest api', 'Python', 'React native']
   },
@@ -104,12 +104,12 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
-      title: 'Ehazypay',
-      detail: 'Ehazypay is a single page platform that gives you easy access to trade your cryptocurrencies directly with trusted vendors.',
+      title: 'PromptSynth',
+      detail: 'Prompt Synth is a platform for sharing and exploring powerful AI prompts.Built with the robust full-stack capabilities of Next.js and beautifully styled with Tailwind CSS. ',
       stack: 'Html, Css, Bootstrap, jQuery',
-      live: 'https://ehazypay.com.ng', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.gyazo.com/1bf1cbf1ea795ec74aa2e4e0ae5ca54a.png',
+      live: 'https://promptsynth.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/GIT-Gizmo/promptsynth', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://i.gyazo.com/eaba80346d6a95e5b8a6b0a1448c9c4b.png',
     },
     {
       title: 'WingsTrip',
@@ -118,6 +118,14 @@ export const info = {
       live: 'https://wingstrip.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/Wings-Trip', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/46b46ffdc141dc81e2d1cf115b947c0a.jpg',
+    },
+    {
+      title: 'Ehazypay',
+      detail: 'Ehazypay is a single page platform that gives you easy access to trade your cryptocurrencies directly with trusted vendors.',
+      stack: 'Html, Css, Bootstrap, jQuery',
+      live: 'https://ehazypay.com.ng', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: 'https://i.gyazo.com/1bf1cbf1ea795ec74aa2e4e0ae5ca54a.png',
     },
     {
       title: 'Little Lemon',
