@@ -1,11 +1,12 @@
 import self from '../img/self.png';
+import adroit from '../img/adroit.png'
 import { colors } from '../colors/mainGradient';
 
 export const info = {
   firstName: ' Boluwatife',
   lastName: 'David',
   initials: 'BD', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'a Frontend developer',
+  position: 'a Full Stack Engineer',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
@@ -21,7 +22,7 @@ export const info = {
     },
     {
       emoji: '👨‍💻',
-      text: 'Front-End Developer | UI/UX',
+      text: 'Software Engineer | Web 3.0',
     },
     {
       emoji: '🤝',
@@ -29,7 +30,7 @@ export const info = {
     },
     {
       emoji: '📨',
-      text: <a href="mailto:davidbolu12@gmail.com?subject=🤘 Hi Dave, I will like to hire you">Davidbolu12@gmail.com</a>,
+      text: <a href="mailto:davidbolu12@gmail.com?subject=🤘 Hi Dave, I will like to hire you">Send me a mail</a>,
     },
   ],
   socials: [
@@ -59,19 +60,28 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: "Hello! I'm Boluwatife David, a dynamic Frontend developer transitioning to Full Stack soon. I enjoy learning new technologies and trying out new Frontend tools. I recently started contributing to open source projects and it's practically my new hobby. I'm available to collaborate on impactful projects",
+  bio: "I'm Boluwatife, a passionate full-stack engineer with a unique journey. My background in demography fueled my analytical thinking and problem-solving skills. But my hunger for crafting impactful experiences led me to transition to web development in 2021. Through self-driven learning, I mastered front-end technologies and landed my first freelance gig within 11 months. This kickstarted my career, leading me to SwapSpace as a front-end developer. Now, as a full-stack engineer at Adroit Handyman Services, I leverage both front-end and back-end expertise to create engaging user interfaces and robust systems. My efforts have driven a 40% increase in sales and user engagement, and I'm constantly pushing boundaries with innovative solutions.",
   skills: {
-    mainStack: ['Reactjs', 'Nextjs', 'Tailwind CSS', 'Vite', 'Git', 'Vercel', 'APIs', 'Firebase'],
-    otherSkills: ['Html/Css', 'JavaScript', 'Typescript','Mongodb', 'Material ui', 'Bootstrap', 'JQuery', 'Chakra ui', 'Netlify', 'Google Cloud', 'Redux', 'Npm', 'Jest', 'Figma', 'Sass', 'Php', 'Wordpress', 'Wix'],
-    /*database: [ 'Supabase', ],
+    frontEnd: ['Reactjs', 'Nextjs', 'JavaScript', 'Typescript', 'Tailwind CSS', 'Vite', 'Material ui', 'Chakra ui', 'Sass', 'Bootstrap', 'Html/Css', 'JQuery',],
+    backEnd: [ 'Nodejs', 'Expressjs', 'MongoDb', 'REST api', 'Php', 'Python', 'Firebase', 'Ejs', ],
+    developmentTools: [ 'Git', 'Vite', 'Vercel', 'Netlify', 'Google Cloud', 'Redux', 'Npm', 'Jest', 'Figma', 'CPanel', 'Wordpress', 'Wix'],
+    /*
   tools: [ 'Cypress'], 
     cms: [],*/
-    interests: ['Nodejs', 'Expressjs', 'Nestjs', 'Graphql', 'Rest api', 'Python', 'React native']
+    // interests: ['Graphql',]
   },
   hobbies: [
     {
       label: 'Coding',
       emoji: '🧑‍💻',
+    },
+    {
+      label: 'Dancing',
+      emoji: '🕺',
+    },
+    {
+      label: 'Solving problems',
+      emoji: '🛠️',
     },
     {
       label: 'Video games',
@@ -86,16 +96,8 @@ export const info = {
       emoji: '📖',
     },
     {
-      label: 'Solving coding challenge',
-      emoji: '🛠️',
-    },
-    {
-      label: 'Taking a walk',
+      label: 'Taking walks',
       emoji: '🚶',
-    },
-    {
-      label: 'Dancing',
-      emoji: '🕺',
     },
   ],
   portfolio: [
@@ -103,15 +105,23 @@ export const info = {
     //   for the null ones, the button will not show up
     {
       title: 'PromptSynth',
-      detail: 'Prompt Synth is a platform for sharing and exploring powerful AI prompts.Built with the robust full-stack capabilities of Next.js and MongoDB, beautifully styled with Tailwind CSS. ',
+      detail: 'Prompt Synth is a web app for sharing and exploring powerful AI prompts. Built with the robust full-stack capabilities of Next.js and MongoDB, beautifully styled with Tailwind CSS.',
       stack: 'Html, Css, Bootstrap, jQuery',
       live: 'https://promptsynth.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/promptsynth', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/eaba80346d6a95e5b8a6b0a1448c9c4b.png',
     },
     {
+      title: 'Adroit Handyman',
+      detail: ': A company website for Adroit Handyman Services where users booking professional Handymen for different services. ',
+      stack: 'Nextjs, Nodejs, Shadcn UI, Tailwind CSS',
+      live: 'https://www.adroithandymanservices.com', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/GIT-Gizmo/promptsynth', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: adroit,
+    },
+    {
       title: 'WingsTrip',
-      detail: 'A beautiful react template. Embark on your dream vacation with Wings Trip! Easily book your ideal flights and set off on unforgettable journeys to your favorite destinations.',
+      detail: 'A beautiful landing page template. Embark on your dream vacation with Wings Trip! Easily book your ideal flights and set off on unforgettable journeys to your favorite destinations.',
       stack: 'React, Sass, Aos',
       live: 'https://wingstrip.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/Wings-Trip', // this should be a link to the **repository** of the project, where the code is hosted.
@@ -121,7 +131,7 @@ export const info = {
       title: 'Ehazypay',
       detail: 'Ehazypay is a single page platform that gives you easy access to trade your cryptocurrencies directly with trusted vendors.',
       stack: 'Html, Css, Bootstrap, jQuery',
-      live: 'https://ehazypay.com.ng', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      live: 'https://ehazypay.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
       image: 'https://i.gyazo.com/1bf1cbf1ea795ec74aa2e4e0ae5ca54a.png',
     },
@@ -143,7 +153,7 @@ export const info = {
     },
     {
       title: 'Glamour Threads',
-      detail: 'An attractive lnading page template for an online clothing store.',
+      detail: 'An attractive landing page template for an online clothing store.',
       stack: 'Html, Sass',
       live: 'https://glamour-threads.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/glamour-threads', // this should be a link to the **repository** of the project, where the code is hosted.

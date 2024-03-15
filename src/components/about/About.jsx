@@ -7,7 +7,7 @@ import { info } from '../../assets/info/Info';
 export default function About() {
   const firstName = info.firstName.toLowerCase();
 
-  function aboutMeText() {
+  const aboutMeText = () => {
     return (
       <>
         <p>
@@ -43,27 +43,31 @@ export default function About() {
     );
   };
 
-  function experience() {
+  const experience = () => {
     return (
       <>
         <p><span style={{color: info.baseColor}}>Work Experience $</span></p>
-            <p>
-                <p style={{color: info.baseColor}}>Swap Space</p>
-                <p>Frontend Developer Internship - September 2023 to Present</p>
-            </p>
-            <p>
-                <p style={{color: info.baseColor}}>Upwork</p>
-                <p>Freelance Frontend Developer - December 2022 to Present</p>
-            </p>
-            <p>
-                <p style={{color: info.baseColor}}>RCCG Bible College</p>
-                <p>Intern Frontend Developer - November 2021 to April 2022</p>
-            </p>
+          <p>
+              <p style={{color: info.baseColor}}>Adroit Handyman Services</p>
+              <p>Web Admin & Full Stack Engineer - January 2024 to Present</p>
+          </p>
+          <p>
+              <p style={{color: info.baseColor}}>Swap Space</p>
+              <p>Contract Frontend Developer - September 2023 to March 2024</p>
+          </p>
+          <p>
+              <p style={{color: info.baseColor}}>Honeybiis</p>
+              <p>Freelance Frontend Developer - February 2023 to March 2023</p>
+          </p>
+          <p>
+              <p style={{color: info.baseColor}}>Ehazypay</p>
+              <p>Contract Web Administrator - December 2022 to December 2024</p>
+          </p>
       </>
     );
   }
 
-  function skillsText() {
+  const skillsText = () => {
     return (
       <>
         <p>
@@ -86,7 +90,7 @@ export default function About() {
     );
   }
 
-  function miscText() {
+  const miscText = () => {
     return (
       <>
         <p>

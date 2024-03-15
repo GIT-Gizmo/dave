@@ -16,16 +16,21 @@ const links = [
     to: './about',
     active: 'about',
   },
+  // {
+  //   name: info.initials,
+  //   type: 'initials',
+  //   to: '/',
+  //   active: 'home',
+  // },
   {
-    name: info.initials,
-    type: 'initials',
-    to: '/',
-    active: 'home',
+    name: 'Projects',
+    to: './projects',
+    active: 'projects',
   },
   {
-    name: 'Portfolio',
-    to: './portfolio',
-    active: 'portfolio',
+    name: 'Contact',
+    to: './contact',
+    active: 'contact',
   },
 ];
 
@@ -42,8 +47,9 @@ export default function Navbar({ darkMode, handleClick }) {
         display={'flex'}
         justifyContent={'center'}
         alignItems={'center'}
-        gap={{ xs: '2rem', md: '8rem' }}
+        gap={{ xs: '1rem', sm: '3rem', md: '8rem' }}
         fontSize={'1rem'}
+        marginTop={'0.4rem'}
       >
         {links.map((link, index) => (
           <Box

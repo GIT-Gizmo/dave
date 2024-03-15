@@ -3,7 +3,8 @@ import Style from './BaseLayout.module.scss';
 import Navbar from './Navbar';
 import Home from './home/Home';
 import About from './about/About';
-import Portfolio from './portfolio/Portfolio';
+import Projects from './projects/Projects';
+import Contact from './contact/Contact';
 import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ParticlesBg from './particles/ParticlesBg';
@@ -12,7 +13,7 @@ import { logGa } from '../utils/log';
 export default function BaseLayout() {
   let [darkMode, setDarkMode] = useState(false);
 
-  function handleToggleDarkMode() {
+  const handleToggleDarkMode = () => {
     let oppositeOfCurrentDarkMode = !darkMode;
     localStorage.setItem('darkMode', `${oppositeOfCurrentDarkMode}`);
     setDarkMode(oppositeOfCurrentDarkMode);
@@ -57,7 +58,8 @@ export default function BaseLayout() {
           <Routes>
             <Route exact path={'/'} element={<Home darkMode={darkMode} />} />
             <Route exact path={'/about'} element={<About />} />
-            <Route exact path={'/portfolio'} element={<Portfolio />} />
+            <Route exact path={'/projects'} element={<Projects />} />
+            <Route exact path={'/contact'} element={<Contact />} />
           </Routes>
         </Grid>
         <Grid item>

@@ -24,7 +24,7 @@ function PortfolioBlock(props) {
                     '  0 100px 80px rgba(0, 0, 0, 0.12)',
             }}
         />
-      <h1 style={{ fontSize: '2rem' }}>{title}</h1>
+      <h1 style={{ marginTop: '1rem', fontSize: '2rem' }}>{title}</h1>
       <h3 className={Style.detail} style={{ marginTop: '1rem', textAlign: 'center', fontSize: '14px'
     }}>{detail}</h3>
       <h4 style={{ fontSize: '20px', fontWeight: '500', marginTop: '1rem' }}> <IconLink icon={'fa fa-cogs'} /> {stack}</h4>
