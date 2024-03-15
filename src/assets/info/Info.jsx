@@ -1,5 +1,12 @@
-import self from '../img/self.png';
-import adroit from '../img/adroit.png'
+import self from '../img/self.webp';
+import adroit from '../img/adroit.webp';
+import promptSynth from '../img/promptsynth.webp';
+import homeSeekr from '../img/home-seekr.webp';
+import ehazypay from '../img/ehazypay.webp';
+import littleLemon from '../img/little-lemon.webp';
+import honeybiis from '../img/honeybiis.webp';
+import wingsTrip from '../img/wingstrip.webp';
+import glamourThreads from '../img/glamour-threads.webp';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
@@ -60,11 +67,12 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: "I'm Boluwatife, a passionate full-stack engineer with a unique journey. My background in demography fueled my analytical thinking and problem-solving skills. But my hunger for crafting impactful experiences led me to transition to web development in 2021. Through self-driven learning, I mastered front-end technologies and landed my first freelance gig within 11 months. This kickstarted my career, leading me to SwapSpace as a front-end developer. Now, as a full-stack engineer at Adroit Handyman Services, I leverage both front-end and back-end expertise to create engaging user interfaces and robust systems. My efforts have driven a 40% increase in sales and user engagement, and I'm constantly pushing boundaries with innovative solutions.",
+  bio: <><p>I'm Boluwatife, a passionate full-stack engineer with a unique journey. My background in demography fueled my analytical thinking and problem-solving skills. But my hunger for crafting impactful experiences led me to transition to web development in 2021.</p><p>Through self-driven learning, I mastered front-end technologies and landed my first freelance gig within 11 months. This kickstarted my career, leading me to SwapSpace as a front-end developer.</p><p>Now, as a full-stack engineer at Adroit Handyman Services, I leverage both front-end and back-end expertise to create engaging user interfaces and robust systems. My efforts have driven a 40% increase in sales and user engagement, and I'm constantly pushing boundaries with innovative solutions.</p></>,
   skills: {
     frontEnd: ['Reactjs', 'Nextjs', 'JavaScript', 'Typescript', 'Tailwind CSS', 'Vite', 'Material ui', 'Chakra ui', 'Sass', 'Bootstrap', 'Html/Css', 'JQuery',],
     backEnd: [ 'Nodejs', 'Expressjs', 'MongoDb', 'REST api', 'Php', 'Python', 'Firebase', 'Ejs', ],
     developmentTools: [ 'Git', 'Vite', 'Vercel', 'Netlify', 'Google Cloud', 'Redux', 'Npm', 'Jest', 'Figma', 'CPanel', 'Wordpress', 'Wix'],
+    learning: [ 'web 3.0', 'solidity'],
     /*
   tools: [ 'Cypress'], 
     cms: [],*/
@@ -105,59 +113,67 @@ export const info = {
     //   for the null ones, the button will not show up
     {
       title: 'PromptSynth',
-      detail: 'Prompt Synth is a web app for sharing and exploring powerful AI prompts. Built with the robust full-stack capabilities of Next.js and MongoDB, beautifully styled with Tailwind CSS.',
-      stack: 'Html, Css, Bootstrap, jQuery',
+      detail: 'Prompt Synth is a full-stack web app that empowers users to share and explore powerful AI prompts.  Imagine a collaborative hub where you can discover new prompts for creative text generation, code completion, or image creation with artificial intelligence.',
+      stack: 'Nextjs, Tailwind, MongoDb, Next Auth',
       live: 'https://promptsynth.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/promptsynth', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.gyazo.com/eaba80346d6a95e5b8a6b0a1448c9c4b.png',
+      image: promptSynth,
     },
     {
       title: 'Adroit Handyman',
-      detail: ': A company website for Adroit Handyman Services where users booking professional Handymen for different services. ',
-      stack: 'Nextjs, Nodejs, Shadcn UI, Tailwind CSS',
+      detail: 'A complete website revamp for Adroit Handyman Services leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 65% reduction in server response times, resulting in a noticeable increase in user engagement and sales for the company. Additionally, Tailwind CSS was used for a modern and responsive design.',
+      stack: 'Nextjs, Expressjs, Shadcn UI, Tailwind CSS',
       live: 'https://www.adroithandymanservices.com', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/GIT-Gizmo/promptsynth', // this should be a link to the **repository** of the project, where the code is hosted.
+      // source: 'https://github.com/GIT-Gizmo/adroit', // this should be a link to the **repository** of the project, where the code is hosted.
       image: adroit,
     },
     {
+      title: 'Home Seekr',
+      detail: 'This project served as a learning experience for building CRUD web applications with user sign-in & sign-up authentication. Developed with React and Firebase, it showcases my ability to create interactive data-driven applications with secure user access.',
+      stack: 'React, Tailwind, Firebase',
+      live: 'https://home-seekr.vercel.app/sign-in', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/GIT-Gizmo/home-seekr', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: homeSeekr,
+    },
+    {
       title: 'WingsTrip',
-      detail: 'A beautiful landing page template. Embark on your dream vacation with Wings Trip! Easily book your ideal flights and set off on unforgettable journeys to your favorite destinations.',
+      detail: 'I explored building interactive elements using React to create a captivating landing page. The project served as a playground to solidify my understanding of Sass for styling and component management.',
       stack: 'React, Sass, Aos',
       live: 'https://wingstrip.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/Wings-Trip', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.gyazo.com/46b46ffdc141dc81e2d1cf115b947c0a.jpg',
+      image: wingsTrip,
     },
     {
       title: 'Ehazypay',
-      detail: 'Ehazypay is a single page platform that gives you easy access to trade your cryptocurrencies directly with trusted vendors.',
+      detail: 'This contract project involved building and managing a user-friendly single-page website for a trusted cryptocurrency vendor. The website simplifies the process for customers to directly buy and sell cryptocurrencies, enhancing their experience and accessibility.',
       stack: 'Html, Css, Bootstrap, jQuery',
       live: 'https://ehazypay.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.gyazo.com/1bf1cbf1ea795ec74aa2e4e0ae5ca54a.png',
+      // source: 'https://github.com/GIT-Gizmo/ehazypay', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: ehazypay,
     },
     {
       title: 'Little Lemon',
-      detail: 'A user-friendly restaurant web app for making table reservations and ordering foods online.',
+      detail: 'This capstone project for the META Frontend Developer Specialization (Coursera) challenged me to build a full-fledged restaurant web app where customers can reserve tables, showcasing my skills in React, user interface design, and front-end development best practices.',
       stack: 'React.js, Toastify, Formik',
       live: 'https://little-lemon-portfolio.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/little-lemon-portfolio', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.gyazo.com/b6af183e10a965acff34cecede83e6ba.png',
+      image: littleLemon,
     },
     {
       title: 'Honeybiis',
-      detail: 'An aesthetically pleasing landing page template for ordering food from an online restaurant.',
+      detail: 'Landing my first freelance gig, I created a visually compelling landing page for an online restaurant. This project allowed me to collaborate with a client and translate their vision into a design that drives customer engagement.',
       stack: 'Html, Sass',
       live: 'https://honeybiis.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/honeybiis', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.gyazo.com/13f8b3e31e88d14f81391f70e7bd57a7.jpg',
+      image: honeybiis,
     },
     {
       title: 'Glamour Threads',
-      detail: 'An attractive landing page template for an online clothing store.',
+      detail: 'Demonstrating my newfound skills in SASS/SCSS, I created a stylish and functional landing page template tailored for online clothing stores. The project emphasizes clear product presentation and navigation to enhance the user experience.',
       stack: 'Html, Sass',
       live: 'https://glamour-threads.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/glamour-threads', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://i.gyazo.com/d4beecb546f743ee1f6a6a021f25295b.png',
+      image: glamourThreads,
     }
   ],
 };
