@@ -69,7 +69,7 @@ export const info = {
   ],
   bio: <><p>I'm Boluwatife, a passionate full-stack engineer with a unique journey. My background in demography fueled my analytical thinking and problem-solving skills. But my hunger for crafting impactful experiences led me to transition to web development in 2021.</p><p>Through self-driven learning, I mastered front-end technologies and landed my first freelance gig within 11 months. This kickstarted my career, leading me to SwapSpace as a front-end developer.</p><p>Now, as a full-stack engineer at Adroit Handyman Services, I leverage both front-end and back-end expertise to create engaging user interfaces and robust systems. My efforts have driven a 40% increase in sales and user engagement, and I'm constantly pushing boundaries with innovative solutions.</p></>,
   skills: {
-    frontEnd: ['Reactjs', 'Nextjs', 'JavaScript', 'Typescript', 'Tailwind CSS', 'Vite', 'Material ui', 'Chakra ui', 'Sass', 'Bootstrap', 'Html/Css', 'JQuery',],
+    frontEnd: ['Reactjs', 'Nextjs', 'JavaScript', 'Typescript', 'Tailwind CSS', 'Material ui', 'Chakra ui', 'Sass', 'Bootstrap', 'Html/Css', 'JQuery',],
     backEnd: [ 'Nodejs', 'Expressjs', 'MongoDb', 'REST api', 'Php', 'Python', 'Firebase', 'Ejs', ],
     developmentTools: [ 'Git', 'Vite', 'Vercel', 'Netlify', 'Google Cloud', 'Redux', 'Npm', 'Jest', 'Figma', 'CPanel', 'Wordpress', 'Wix'],
     learning: [ 'web 3.0', 'solidity'],
