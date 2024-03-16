@@ -61,7 +61,7 @@ export default function About() {
           </p>
           <p>
               <p style={{color: info.baseColor}}>Ehazypay</p>
-              <p>Contract Web Administrator - December 2022 to December 2024</p>
+              <p>Contract Web Administrator - December 2022 to January 2024</p>
           </p>
       </>
     );
