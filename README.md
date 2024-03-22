@@ -2,7 +2,7 @@
 
 ## a portfolio for developers
 
-![screenshot](https://dave-dev.vercel.app/website.png)
+![screenshot](https://dave-dev.vercel.app/website.webp)
 
 [View Live Template](https://dave-dev.vercel.app/)
 
@@ -53,8 +53,8 @@ Elements redesigned by [Ingrid Fei](https://ingrid0126.com)
 ### 1. replace the images
 
 - replace `/src/assets/img/self.png`
-- replace `/public/favicon.ico`
-- replace `/public/website.jpg` (this is the image that shows up when you share the link on social media, you can take a screen shot when the infomation has been filled out)
+- replace `/public/favicon.svg`
+- replace `/public/website.webp` (this is the image that shows up when you share the link on social media, you can take a screen shot when the infomation has been filled out)
 
 ### 2. Your Information
 
@@ -124,14 +124,14 @@ const firebaseConfig = {
     <meta property="og:url" content="https://dave-dev.vercel.app/">
     <meta property="og:title" content="Boluwatife David, UI/UX Designer">
     <meta property="og:description" content="Hi there! I'm Boluwatife David, a dedicated frontend developer. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm seeking a frontend developer role to contribute my expertise to impactful projects. Let's collaborate and create delightful digital experiences!">
-    <meta property="og:image" content="https://dave-dev.vercel.app/website.png">
+    <meta property="og:image" content="https://dave-dev.vercel.app/website.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://dave-dev.vercel.app/">
     <meta property="twitter:title" content="Boluwatife David, Front-end Developer | UI/UX">
     <meta property="twitter:description" content="Hi there! I'm Boluwatife David, a dedicated frontend developer. I'm fueled by my passion for technology, infusing creativity and functionality into each project. I'm seeking a frontend developer role to contribute my expertise to impactful projects. Let's collaborate and create delightful digital experiences!">
-    <meta property="twitter:image" content="https://dave-dev.vercel.app/website.png">
+    <meta property="twitter:image" content="https://dave-dev.vercel.app/website.webp">
 ```
 
 
