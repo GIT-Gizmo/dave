@@ -135,8 +135,8 @@ export const info = {
     },
     {
       title: 'Anime Crypt',
-      detail: 'A complete website revamp for Adroit Handyman Services leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 65% reduction in server response times, resulting in a noticeable increase in user engagement and sales for the company. Additionally, Tailwind CSS was used for a modern and responsive design.',
-      stack: 'Nextjs, Expressjs, Shadcn UI, Tailwind',
+      detail: 'Deepened my understanding of server-side rendering with Next.js by building a dynamic anime list application. Explored the power of TypeScript for type safety and Framer Motion for smooth animations.',
+      stack: 'Nextjs, TypeScript, Framer motion, Tailwind',
       live: 'https://anime-crypt.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/GIT-Gizmo/anime-crypt', // this should be a link to the **repository** of the project, where the code is hosted.
       image: anime,
