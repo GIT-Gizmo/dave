@@ -2,6 +2,7 @@ import self from '../img/self.webp';
 import adroit from '../img/adroit.webp';
 import aistitches from '../img/ai-stitches.webp';
 import promptSynth from '../img/promptsynth.webp';
+import anime from "../img/anime_crypt.webp"
 import homeSeekr from '../img/home-seekr.webp';
 import ehazypay from '../img/ehazypay.webp';
 import littleLemon from '../img/little-lemon.webp';
@@ -70,14 +71,10 @@ export const info = {
   ],
   bio: <><p>Hello, I'm Boluwatife David. A Full-Stack Engineer with a unique journey. My background in demography fueled my analytical thinking and problem-solving skills. But my hunger for crafting impactful experiences led me to transition to web development in 2021.</p><p>Through self-driven learning, I mastered front-end technologies and landed my first freelance gig within 11 months. This kickstarted my career, leading me to SwapSpace as a front-end developer.</p><p>Now, as a full-stack engineer at Adroit Handyman Services, I leverage both front-end and back-end expertise to create engaging user interfaces and robust systems. My efforts have driven a 40% increase in sales and user engagement, and I'm constantly pushing boundaries with innovative solutions.</p></>,
   skills: {
-    frontEnd: ['Reactjs', 'Nextjs', 'JavaScript', 'Typescript', 'Tailwind CSS', 'Material ui', 'Chakra ui', 'Sass', 'Bootstrap', 'Html/Css', 'JQuery',],
+    frontEnd: ['Reactjs', 'Nextjs', 'JavaScript', 'Typescript', 'Tailwind CSS', 'Framer Motion', 'Material ui', 'Chakra ui', 'Sass', 'Bootstrap', 'Html/Css', 'JQuery',],
     backEnd: [ 'Nodejs', 'Expressjs', 'MongoDb', 'REST api', 'Php', 'Python', 'Firebase', 'Ejs', ],
     developmentTools: [ 'Git', 'Vite', 'Vercel', 'Netlify', 'Google Cloud', 'Redux', 'Npm', 'Jest', 'Figma', 'CPanel', 'Wordpress', 'Wix'],
     learning: [ 'web 3.0', 'solidity'],
-    /*
-  tools: [ 'Cypress'], 
-    cms: [],*/
-    // interests: ['Graphql',]
   },
   hobbies: [
     {
@@ -135,6 +132,14 @@ export const info = {
       live: 'https://www.adroithandymanservices.com', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       // source: 'https://github.com/GIT-Gizmo/adroit', // this should be a link to the **repository** of the project, where the code is hosted.
       image: adroit,
+    },
+    {
+      title: 'Anime Crypt',
+      detail: 'A complete website revamp for Adroit Handyman Services leveraging Next.js and its Server-Side Rendering (SSR) capabilities for a significant 65% reduction in server response times, resulting in a noticeable increase in user engagement and sales for the company. Additionally, Tailwind CSS was used for a modern and responsive design.',
+      stack: 'Nextjs, Expressjs, Shadcn UI, Tailwind',
+      live: 'https://anime-crypt.vercel.app', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/GIT-Gizmo/anime-crypt', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: anime,
     },
     {
       title: 'Home Seekr',
