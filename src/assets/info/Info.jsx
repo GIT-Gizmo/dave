@@ -69,11 +69,12 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: <><p>Hello, I'm Boluwatife David. A Full-Stack Engineer with a unique journey. My background in demography fueled my analytical thinking and problem-solving skills. But my hunger for crafting impactful experiences led me to transition to web development in 2021.</p><p>Through self-driven learning, I mastered front-end technologies and landed my first freelance gig within 11 months. This kickstarted my career, leading me to SwapSpace as a front-end developer.</p><p>Now, as a full-stack engineer at Adroit Handyman Services, I leverage both front-end and back-end expertise to create engaging user interfaces and robust systems. My efforts have driven a 40% increase in sales and user engagement, and I'm constantly pushing boundaries with innovative solutions.</p></>,
+  bio: <><p>Hello!, I'm Boluwatife David. A Full-Stack Engineer with a unique journey transitioning to web development. My background in demography fueled my analytical skills, which I now combine with expertise in React, Next.js, Node.js, and PHP to create cool web apps and robust systems.</p><p>Self-driven learning landed me my first freelance gig within 11 months, followed by roles at Swap Space and Adroit Handyman Services. At Adroit, I revamped the entire website which boosted server response time by 65% and user engagement by 20% and I'm constantly pushing boundaries with innovative solutions.</p><p>Beyond coding, I'm fascinated by Web 3.0's potential to improve user privacy and personalize experiences. Let's explore how I can bring your vision to life!</p>
+  </>,
   skills: {
-    frontEnd: ['Reactjs', 'Nextjs', 'JavaScript', 'Typescript', 'Tailwind CSS', 'Framer Motion', 'Material ui', 'Chakra ui', 'Sass', 'Bootstrap', 'Html/Css', 'JQuery',],
-    backEnd: [ 'Nodejs', 'Expressjs', 'MongoDb', 'REST api', 'Php', 'Python', 'Firebase', 'Ejs', ],
-    developmentTools: [ 'Git', 'Vite', 'Vercel', 'Netlify', 'Google Cloud', 'Redux', 'Npm', 'Jest', 'Figma', 'CPanel', 'Wordpress', 'Wix'],
+    frontEnd: ['Reactjs', 'Nextjs', 'Html/Css', 'JavaScript', 'Typescript', 'Tailwind', 'Framer Motion', 'Material ui', 'Sass', 'Bootstrap'],
+    backEnd: ['Nodejs', 'Expressjs', 'MongoDb', 'REST api', 'Php', 'Python', 'Firebase', 'Google Cloud'],
+    developmentTools: [ 'Git', 'Vite', 'Vercel', 'Netlify', 'Npm', 'Jest', 'Figma', 'CPanel'],
     learning: [ 'web 3.0', 'solidity'],
   },
   hobbies: [
