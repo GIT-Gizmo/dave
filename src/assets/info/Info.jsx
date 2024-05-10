@@ -31,7 +31,7 @@ export const info = {
     },
     {
       emoji: '👨‍💻',
-      text: 'Software Engineer | Web 3.0',
+      text: 'Software Engineer | Web 3.0 Enthusiast',
     },
     {
       emoji: '🤝',
@@ -69,26 +69,27 @@ export const info = {
       label: 'telegram',
     },
   ],
-  bio: <><p>Hello!, I'm Boluwatife David. A Full-Stack Engineer with a unique journey transitioning to web development. My background in demography fueled my analytical skills, which I now combine with expertise in React, Next.js, Node.js, and PHP to create cool web apps and robust systems.</p><p>Self-driven learning landed me my first freelance gig within 11 months, followed by roles at Swap Space and Adroit Handyman Services. At Adroit, I revamped the entire website which boosted server response time by 65% and user engagement by 20% and I'm constantly pushing boundaries with innovative solutions.</p><p>Beyond coding, I'm fascinated by Web 3.0's potential to improve user privacy and personalize experiences. Let's explore how I can bring your vision to life!</p>
+  bio: <><p>Hello!, I'm Boluwatife David. A Full-Stack Engineer with a unique journey transitioning to software development. My background in demography fueled my analytical skills, which I now combine with expertise in React, Next.js, Node.js, and PHP to create cool web apps and robust systems.</p><p>Self-driven learning landed me my first freelance gig within 11 months, followed by internship role at Swap Space and contract role Adroit Handyman Services. At Adroit, I revamped the entire website which boosted server response time by 65% and user engagement by 20% and I'm constantly pushing boundaries with innovative solutions.</p><p>Beyond coding, I'm fascinated by Web 3.0's potential to improve user privacy and personalize experiences. Let's explore how I can bring your vision to life!</p>
   </>,
   skills: {
-    frontEnd: ['Reactjs', 'Nextjs', 'Html/Css', 'JavaScript', 'Typescript', 'Tailwind', 'Framer Motion', 'Material ui', 'Sass', 'Bootstrap'],
-    backEnd: ['Nodejs', 'Expressjs', 'MongoDb', 'REST api', 'Php', 'Python', 'Firebase', 'Google Cloud'],
-    developmentTools: [ 'Git', 'Vite', 'Vercel', 'Netlify', 'Npm', 'Jest', 'Figma', 'CPanel'],
-    learning: [ 'web 3.0', 'solidity'],
+    // frontEnd: ['Reactjs', 'Nextjs', 'Html/Css', 'JavaScript', 'Typescript', 'Tailwind', 'Framer Motion', 'Material ui', 'Sass', 'Bootstrap'],
+    // backEnd: ['Nodejs', 'Expressjs', 'MongoDb', 'REST api', 'Php', 'Python', 'Firebase', 'Google Cloud'],
+    // developmentTools: [ 'Git', 'Vite', 'Vercel', 'Netlify', 'Npm', 'Jest', 'Figma', 'CPanel'],
+    // learning: [ 'web 3.0', 'solidity'],
+    languages: ['JavaScript', 'TypeScript', 'Python', 'PHP', 'HTML5', 'CSS3'],
+    librariesAndFrameworks: ['React.js', 'Next.js', 'Express.js', 'Tailwind', 'Bootstrap', 'Three.js', 'Material UI', 'Framer Motion', 'ShadCn UI'],
+    databaseAndBackend: ['MongoDb', 'Nodejs',  'Firebase', 'REST API'],
+    cloudServices: ['Google Cloud', 'Firebase', 'Vercel', 'Netlify'],
+    tools: ['Git', 'Npm', 'Postman', 'Vite', 'Jest', 'Cpanel', 'Payload CMS', 'Figma'],
   },
   hobbies: [
     {
-      label: 'Coding',
-      emoji: '🧑‍💻',
+      label: 'Chess',
+      emoji: '♟️',
     },
     {
       label: 'Dancing',
       emoji: '🕺',
-    },
-    {
-      label: 'Solving problems',
-      emoji: '🛠️',
     },
     {
       label: 'Video games',
@@ -99,7 +100,7 @@ export const info = {
       emoji: '🍿',
     },
     {
-      label: 'Reading',
+      label: 'Mystery Novels',
       emoji: '📖',
     },
     {

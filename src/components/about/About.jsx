@@ -49,11 +49,11 @@ export default function About() {
         <p><span style={{color: info.baseColor}}>Work Experience $</span></p>
           <p>
               <p style={{color: info.baseColor}}>Adroit Handyman Services</p>
-              <p>Web Admin & Full Stack Engineer - January 2024 to Present</p>
+              <p>Contract Full Stack Engineer - January 2024 to Present</p>
           </p>
           <p>
               <p style={{color: info.baseColor}}>Swap Space</p>
-              <p>Contract Frontend Developer - September 2023 to March 2024</p>
+              <p>Intern Frontend Developer - September 2023 to Present</p>
           </p>
           <p>
               <p style={{color: info.baseColor}}>Honeybiis</p>
